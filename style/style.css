@@ -6,3 +6,17 @@ body {
 body {
   width: 100%;
 }
+img {
+  max-width: 100%;
+}
+
+/* Верхний блок */
+.top {
+  width: 90%;
+  margin: 1vh 0;
+  padding: 1vh 5%;
+  display: flex;
+  background-color: #4794cf;
+}
+
+/* Синяя надпись теста */

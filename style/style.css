@@ -5,18 +5,212 @@ body {
 }
 body {
   width: 100%;
+  font-family: 'Microsoft Sans Serif';
 }
 img {
   max-width: 100%;
 }
 
 /* Верхний блок */
+.top,
+.top__logo,
+.top__phone {
+  display: flex;
+}
 .top {
   width: 90%;
   margin: 1vh 0;
   padding: 1vh 5%;
-  display: flex;
   background-color: #4794cf;
+}
+.top__blind {
+  width: 5%;
+  margin: auto 5% auto 0;
+}
+.top__logo {
+  width: 40%;
+}
+.top__logo-img {
+  width: 10%;
+  margin: auto;
+}
+.top__logo-text {
+  width: 80%;
+  padding: 0 0 0 2%;
+  text-align: left;
+  border-left: 0.1vw solid #fff;
+}
+h1 {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5vw;
+  line-height: 170%;
+  color: #fff;
+}
+.top__phone {
+  width: 30%;
+  margin: auto 10%;
+}
+.top__phone-tel {
+  width: 75%;
+  margin: auto;
+  font-size: 1.5vw;
+  color: #fff;
+  text-align: center;
+  line-height: 150%;
+}
+.top__phone-tel span {
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+.top__phone-find {
+  width: 10%;
+  padding: 5%;
+  border-left: 0.1vw solid #fff;
+  border-right: 0.1vw solid #fff;
+}
+
+/* меню */
+nav {
+  width: 70%;
+  margin: 4vh 15% 1vh 15%;
+}
+nav ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+nav li {
+  margin: auto;
+  text-align: center;
+}
+nav a {
+  font-size: 1.3vw;
+  text-decoration: none;
+  color: #585858;
 }
 
 /* Синяя надпись теста */
+.title {
+  width: 100%;
+  padding: 1vw 0;
+  font-size: 1.7vw;
+  text-align: center;
+  color: #fff;
+  background-color: #4794cf;
+  font-family: 'ManifoldExtendedCF-Regular';
+}
+
+/* Методика лечения */
+.method {
+  width: 84%;
+  padding: 2vh 8%;
+}
+.method__title {
+  margin: 2vh 0;
+  font-size: 2.3vw;
+  color: #4794cf;
+  font-family: 'Impact';
+}
+.method__item {
+  width: 100%;
+  margin: 4vh 0;
+  display: flex;
+}
+.method__img {
+  width: 20%;
+}
+.method__text {
+  width: 77%;
+  margin: auto;
+  font-size: 1vw;
+}
+
+/* Статистика на синем фоне */
+.stat {
+  width: 86%;
+  padding: 1vw 7%;
+  display: flex;
+  font-size: 1.6vw;
+  text-align: center;
+  color: #fff;
+  font-family: 'Impact';
+  background-color: #4794cf;
+}
+.stat__item {
+  margin: auto;
+}
+.stat__item span {
+  font-size: 3.2vw;
+}
+
+/* МРТ  */
+.mrt {
+  width: 90%;
+  margin: 4vh 0 4vh 10%;
+  display: flex;
+}
+.mrt__left-block {
+  width: 20%;
+  margin: 0 5%;
+}
+.mrt__right-block {
+  width: 60%;
+  margin: 0 5%;
+}
+.mrt__title,
+.mrt__text {
+  padding: 0 1vw;
+}
+.mrt__title {
+  font-size: 2.5vw;
+  font-family: 'Impact';
+  color: #4794cf;
+}
+.mrt__text {
+  padding-top: 1vw;
+  font-size: 1vw;
+}
+.mrt__pointer {
+  width: 100%;
+  padding: 1vh 0;
+  margin-top: 1vw;
+  display: flex;
+  background-color: #4794cf;
+}
+.mrt__pointer-item {
+  width: 33.3%;
+  margin: auto;
+  font-size: 1.5vw;
+  color: #fff;
+  text-align: center;
+}
+.border-right {
+  border-right: 1px solid #fff;
+}
+
+@font-face {
+	font-family: 'Microsoft Sans Serif';
+	src: url('../fonts/Microsoft Sans Serif.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Impact';
+	src: url('../fonts/Impact.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'ManifoldExtendedCF-Regular';
+	src: url('../fonts/Webfont/ManifoldExtendedCF-Regular.eot');
+	src: local('ManifoldExtendedCF-Regular'), local('ManifoldExtendedCF-Regular'),
+		url('../fonts/Webfont/ManifoldExtendedCF-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Webfont/ManifoldExtendedCF-Regular.woff') format('woff'),
+		url('../fonts/Webfont/ManifoldExtendedCF-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}

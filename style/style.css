@@ -10,6 +10,9 @@ body {
 img {
   max-width: 100%;
 }
+button {
+  cursor: pointer;
+}
 
 /* Верхний блок */
 .top,
@@ -82,6 +85,7 @@ nav ul {
   padding: 0;
   display: flex;
   list-style: none;
+  align-items: center;
 }
 nav li {
   margin: auto;
@@ -92,10 +96,18 @@ nav a {
   text-decoration: none;
   color: #585858;
 }
+nav button {
+  width: 100%;
+  padding: 1vh 1vw;
+  font-size: 1.3vw;
+  color: #fff;
+  background-color: #fe2f2f;
+  border: 0;
+}
 
 /* Блок с врачем */
 .doctor {
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: space-between;
 }
@@ -103,8 +115,8 @@ nav a {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  width: 43%;
-  padding: 10vh 0 20vh 0;
+  width: 46%;
+  padding: 10vh 0 15vh 0;
   font-size: 1vw;
   font-weight: bold;
   line-height: 150%;
@@ -131,7 +143,10 @@ nav a {
   width: 30%;
 }
 .doctor__right {
-  width: 40%;
+  width: 15%;
+  padding: 5% 16%;
+  margin-top: 10vh;
+  margin-bottom: 14vh;
 }
 .doctor__button {
   width: 100%;
@@ -167,7 +182,7 @@ nav a {
 }
 .method__item {
   width: 100%;
-  margin: 4vh 0;
+  margin: 5vh 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -242,6 +257,41 @@ nav a {
 }
 .border-right {
   border-right: 1px solid #fff;
+}
+
+/* Блок обратного звонка */
+.callback {
+  width: 90%;
+  padding: 3vh 5%;
+  color: #fff;
+  background-color: #4794cf;
+}
+h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 3.1vw;
+  text-align: center;
+  letter-spacing: 0.05em;
+  font-family: 'Impact';
+  font-weight: 300;
+}
+.callback__article {
+  width: 100%;
+  margin: 3vh 0;
+  font-size: 1.3vw;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-family: 'Impact';
+  font-weight: 300;
+}
+
+/* Футер */
+footer {
+  width: 90%;
+  padding: 3vh 5%;
+  margin: 1vh 0 0 0;
+  color: #fff;
+  background-color: #4794cf;
 }
 
 @font-face {

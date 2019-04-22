@@ -240,6 +240,7 @@ nav button {
 .mrt__text {
   padding-top: 1vw;
   font-size: 1.1vw;
+  line-height: 170%;
 }
 .mrt__pointer {
   width: 100%;
